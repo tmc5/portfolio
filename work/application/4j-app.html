@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>ペイントソフトにおけるＵＩ開発 | Natsumi Kobayashi Portfolio</title>
+  <meta name="description" content="小林夏美の作品を紹介します。">
+  <meta name="viewport" content="width=device-width">
+  <script src="./../../js/toggle-menu.js"></script>
+  <link href="./../../css/common.css" rel="stylesheet">
+  <link href="./../../css/work/watchmore.css" rel="stylesheet">
+  <link href="./../../css/work/work-card.css" rel="stylesheet">
+  <link href="./../../css/recommended.css" rel="stylesheet">
+  <link href="./../../css/work/data.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <style>
+    /* タイトルの背景画像はここで指定する */
+    .title{
+      height: 300px;
+      background-image: url(../../../images/work/application/01/02.png);
+      background-size: cover;
+    }
+  </style>
+</head>
+
+<body>
+  
+   <!-- headerここから -->
+   <header class="header">
+    <div class="header-inner">
+      <a class="header-logo" href="./../../index.html">
+        <img src="./../../images/common/logo-header.png" alt="Natsumi">
+      </a>
+      <button class="toggle-menu-button"></button>
+      <div class="header-site-menu">
+        <nav class="site-menu">
+          <ul clalss="article-ul">
+            <li><a href="./../../index.html">TOP</a></li>           
+            <li><a href="./../../work.html">WORK</a></li>
+            <li><a href="./../../contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- headerここまで -->
+
+  <!-- mainここから -->
+  <main class="main">
+    <div class="title"></div>
+
+    <div class="article">
+      <div class="article-title">
+        <div class="article-date">
+          <p>2020/10</p>
+        </div>
+        <h1>ペイントソフトにおけるＵＩ開発</h1>
+        <h2>高専4年次（大学1年生相当）に初めての共同開発で作成しました。文字配置UIをメインの機能としたデザインツールです。</h2>
+      </div>
+      <div class="article-content">
+        <img src="./../../images/work/application/01/02.png">
+        <p>Tシャツなどのデザインを行う際に、かわいい文字のフォントを有するアプリ、文字の自由変形ができるアプリ、それぞれの機能が複数のアプリに分散されていました。これを一つのアプリに統合し、文字配置の新しいUIを作成することでデザインの自由度を高めました。</p>
+
+        <h3>開発過程</h3>
+        <p>開発は以下の流れで行いました。自分はプロジェクトリーダーを担当しました。</p>
+        <p>WindowsPCで作動を前提とし、開発言語はC#です。</p>
+        <ul>
+          <li>機能定義</li>
+          <li>UI定義・画面構成</li>
+          <li>アプリ作成</li>
+          <li>テスト</li>
+          <li>完成</li>
+        </ul>
+
+        <h3>メインアイデア：文字配置UI</h3>
+        文字配置UIは私の実体験から着想を得たUIです。簡単に文字をアーチ状に配置したり、右肩上がりに配置したいという考えを実現しました。<br>
+        マーカー（〇）を右下の作業枠内に好きなように配置し、マーカーの接続モード(曲線/直線)を選択すると配置したマーカーの形状に沿って左上のプレビュー画面に文字が配置されるという仕組みです。
+        カラーパレットをハート形に配置するなど遊び心にあふれた作品になっています。
+
+        <h3>学んだこと</h3>
+        <ul>
+          <li>C#を用いたコーディング</li>
+          <li>GUIでの画面設計</li>
+          <li>共同開発の作業分担のスキル</li>
+        </ul>
+
+      </div>
+    </div>
+
+    
+    <div class="recommended">
+      <h2>Related Works</h2>
+      <ul class="item-list">
+
+        <li>
+          <div class="recom-card" data-movie="buT">
+            <div class="card__overlay" type="design"></div>
+            <div class="recom-card__content">
+              <div class="recom-card__header">
+                <h1 class="recom-card__title">部活Tシャツ</h1>
+                <h4 class="recom-card__info">2017.10</h4>
+              </div>
+              <p class="recom-card__desc">群馬高専バレー部で現在でも毎年作成され続けている部活Tシャツのデザインをしました。</p>
+              <button class="btn btn-outline movie-card__button" type="button" onclick="location.href='./../design/buT.html'">Watch more</button>
+            </div>
+          </div>
+        </li>
+        
+  
+
+        <li>
+          <div class="recom-card" data-movie="g-live2020T">
+            <div class="card__overlay" type="design"></div>
+            <div class="recom-card__content">
+              <div class="recom-card__header">
+                <h1 class="recom-card__title">卒業ライブ　Tシャツ</h1>
+                <h4 class="recom-card__info">2020.03</h4>
+              </div>
+              <p class="recom-card__desc">群馬高専卒業ライブ"Graduation LIVE 2020"で販売しました。</p>
+              <button class="btn btn-outline movie-card__button" type="button" onclick="location.href='./../design/g-live2020T.html'">Watch more</button>
+            </div>
+          </div>
+        </li>
+
+
+
+        <li>
+          <div class="recom-card" data-movie="shibuT">
+            <div class="card__overlay" type="design"></div>
+            <div class="recom-card__content">
+              <div class="recom-card__header">
+                <h1 class="recom-card__title">big logo Tシャツ</h1>
+                <h4 class="recom-card__info">2020.10</h4>
+              </div>
+              <p class="recom-card__desc">バンド「渋谷の10代に聞いたオシャレワード」の物販Tシャツをデザインしました。</p>
+              <button class="btn btn-outline movie-card__button" type="button" onclick="location.href='./../design/shibuT.html'">Watch more</button>
+            </div>
+          </div>
+        </li>
+        
+      </ul>
+    </div>
+  </main>
+  <!-- mainここまで -->
+
+ <!-- footerここから -->
+ <footer class="footer">
+  <nav class="site-menu">
+    <ul>
+      <li><a href="./../../index.html">TOP</a></li>           
+      <li><a href="./../../work.html">WORK</a></li>
+      <li><a href="./../../contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+  <a class="footer-logo" href="../../index.html">
+    <img src="./../../images/common/logo-footer.png" alt="KISSA">
+  </a>
+  <p class="copyright"><small>&copy;tmc5</small></p>
+  <p id="page-top"><a href="#">Page Top</a></p> 
+    
+
+
+</footer>
+<!-- footerここまで -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="../../js/up.js"></script>
+<script src="js/8-1-2.js"></script>
+</body>
+
+</html>

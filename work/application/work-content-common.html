@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>| Natsumi Kobayashi Portfolio</title>
+  <meta name="description" content="小林夏美の作品を紹介します。">
+  <meta name="viewport" content="width=device-width">
+  <script src="./../../js/toggle-menu.js"></script>
+  <link href="./../../css/common.css" rel="stylesheet">
+  <link href="./../../css/work/watchmore.css" rel="stylesheet">
+  <link href="./../../css/work/work-card.css" rel="stylesheet">
+  <link href="./../../css/recommended.css" rel="stylesheet">
+  <link href="./../../css/work/data.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <style>
+    /* タイトルの背景画像はここで指定する */
+    .title{
+      height: 150px;
+      background-image: url(../../../images/work/application/02/01.png);
+      background-size: cover;
+    }
+  </style>
+</head>
+
+<body>
+  
+   <!-- headerここから -->
+   <header class="header">
+    <div class="header-inner">
+      <a class="header-logo" href="./../../index.html">
+        <img src="./../../images/common/logo-header.png" alt="Natsumi">
+      </a>
+      <button class="toggle-menu-button"></button>
+      <div class="header-site-menu">
+        <nav class="site-menu">
+          <ul>
+            <li><a href="./../../index.html">TOP</a></li>           
+            <li><a href="./../../work.html">WORK</a></li>
+            <li><a href="./../../contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- headerここまで -->
+
+  <!-- mainここから -->
+  <main class="main">
+    <div class="title"></div>
+
+    <div class="article">
+      <div class="article-title">
+        <div class="article-date">
+          <p>日付</p>
+        </div>
+        <h1>タイトル</h1>
+        <h2>説明</h2>
+      </div>
+      <div class="article-content">
+        <h3>見出し</h3>
+        <p>あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ。</p>
+
+      </div>
+    </div>
+
+    
+    <div class="recommended">
+      <h2>Related Works</h2>
+      <ul class="item-list">
+        
+        <li>
+          <div class="recom-card" data-movie="genkin">
+            <div class="card__overlay" type="application"></div>
+            <div class="recom-card__content">
+              <div class="recom-card__header">
+                <h1 class="recom-card__title">Androidアプリ:<br>限金のつかいかた</h1>
+                <h4 class="recom-card__info">2022.9</h4>
+              </div>
+              <p class="recom-card__desc">「1000円あったら何ができる？」お金の使い方をシェアするアプリ開発をしました。</p>
+              <button class="btn btn-outline recom-card__button" type="button" onclick="location.href='application/genkin.html'">Watch more</button>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="recom-card" data-movie="toukitaikai">
+            <div class="card__overlay" type="event"></div>
+            <div class="recom-card__content">
+              <div class="recom-card__header">
+                <h1 class="recom-card__title">校内冬季バレーボール大会 創設</h1>
+                <h4 class="recom-card__info">2018～</h4>
+              </div>
+              <p class="recom-card__desc">これまでなかった校内冬季大会を創設しました。現在でも伝統として続いています。</p>
+              <button class="btn btn-outline recom-card__button" type="button" onclick="location.href=''">Watch more</button>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="recom-card" data-movie="pbl">
+            <div class="card__overlay" type="application"></div>
+            <div class="recom-card__content">
+              <div class="recom-card__header">
+                <h1 class="recom-card__title">ガスボンベ容器番号認識システムの構築</h1>
+                <h4 class="recom-card__info">2020.10</h4>
+              </div>
+              <p class="recom-card__desc">企業との共同開発学内で班長を務め、学内発表で全７班のうち、最優秀賞に選ばれました。</p>
+              <button class="btn btn-outline recom-card__button" type="button" onclick="location.href='application/pbl.html'">Watch more</button>
+            </div>
+        </div>
+        </li>
+        <li>
+          <div class="recom-card" data-movie="kamoku-logo">
+            <div class="card__overlay" type="design"></div>
+            <div class="recom-card__content">
+              <div class="recom-card__header">
+                <h1 class="recom-card__title">目で見る科目：ロゴ</h1>
+                <h4 class="recom-card__info">2021.11</h4>
+              </div>
+              <p class="recom-card__desc">「工業系科目」30科目をモチーフにロゴをデザインしました。</p>
+              <button class="btn btn-outline recom-card__button" type="button" onclick="location.href='design/kamoku-logo.html'">Watch more</button>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="recom-card" data-movie="g-live">
+            <div class="card__overlay" type="event"></div>
+            <div class="recom-card__content">
+              <div class="recom-card__header">
+                <h1 class="recom-card__title">卒業ライブ<br>企画執行</h1>
+                <h4 class="recom-card__info">2020.3</h4>
+              </div>
+              <p class="recom-card__desc">企画・主催・執行を行いました。集客や告知など仲間と協力して行い大成功を納めました。</p>
+              <button class="btn btn-outline recom-card__button" type="button" onclick="location.href='event/g-live.html'">Watch more</button>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="recom-card" data-movie="pop-otyoko">
+            <div class="card__overlay" type="design"></div>
+            <div class="recom-card__content">
+              <div class="recom-card__header">
+                <h1 class="recom-card__title">ポップおちょこ</h1>
+                <h4 class="recom-card__info">2020.7</h4>
+              </div>
+              <p class="recom-card__desc">ポップでかわいいおちょこがあったら面白いなという発想から生まれました。</p>
+              <button class="btn btn-outline recom-card__button" type="button" onclick="location.href='design/pop-otyoko.html'">Watch more</button>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </main>
+  <!-- mainここまで -->
+
+ <!-- footerここから -->
+ <footer class="footer">
+  <nav class="site-menu">
+    <ul>
+      <li><a href="./../../index.html">TOP</a></li>           
+      <li><a href="./../../work.html">WORK</a></li>
+      <li><a href="./../../contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+  <a class="footer-logo" href="../../index.html">
+    <img src="./../../images/common/logo-footer.png" alt="KISSA">
+  </a>
+  <p class="copyright"><small>&copy;tmc5</small></p>
+  <p id="page-top"><a href="#">Page Top</a></p> 
+    
+
+
+</footer>
+<!-- footerここまで -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="../js/up.js"></script>
+<script src="js/8-1-2.js"></script>
+</body>
+
+</html>
