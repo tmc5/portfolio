@@ -66,19 +66,19 @@
 
 /* イベント */
 .work-card[data-movie="toukitaikai"],.recom-card[data-movie="toukitaikai"] {
-  background-image: url("../../images/work/event/01/01.png");
+  background-image: url("../../images/work/event/01/01.jpg");
 }
 .work-card[data-movie="g-live"],.recom-card[data-movie="g-live"] {
-  background-image: url("../../images/work/event/02/01.png");
+  background-image: url("../../images/work/event/02/01.jpg");
 }
 .work-card[data-movie="bunkasai"],.recom-card[data-movie="bunkasai"] {
-  background-image: url("../../images/work/event/03/01.png");
+  background-image: url("../../images/work/event/03/01.jpg");
 }
 .work-card[data-movie="ryosai"],.recom-card[data-movie="ryosai"] {
-  background-image: url("../../images/work/event/04/01.png");
+  background-image: url("../../images/work/event/04/01.jpg");
 }
 .work-card[data-movie="omoide"],.recom-card[data-movie="omoide"] {
-  background-image: url("../../images/work/event/05/01.png");
+  background-image: url("../../images/work/event/05/01.jpg");
 }
 
 
