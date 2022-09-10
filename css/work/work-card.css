@@ -181,13 +181,7 @@ h1, h2, h3 {
   border: 3px solid #ffffff;
 }
 
-.btn::before {
-  font-family: "Material Icons";
-  content: "\e037";
-  vertical-align: middle;
-  font-size: 1.5em;
-  padding-right: 0.5em;
-}
+
 
 .btn-outline:hover {
   border-color: #2a9fff;
