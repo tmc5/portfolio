@@ -17,6 +17,11 @@
     margin-top: 30px;
 }
 
+
+.title {
+    height: 300px;
+}
+
 @media (max-width: 800px){
     .title {
         height: 150px;
